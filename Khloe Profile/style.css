@@ -1,0 +1,109 @@
+/*colors and fonts*/
+body {
+	background-color: #fcf5f9;
+	font-family: Livvic;
+	font-size: 17px;
+	text-align: center;
+}
+
+h1,h2,h3 {
+	font-family: Livvic;
+
+}
+div {
+
+	color: black ;
+}
+h1 {
+	color: #df88b5;
+	font-size: 32px;
+
+}
+
+
+h2 {
+	color: #df88b5;
+	font-family: Livvic;
+}
+
+div {
+	background: white;
+	width: 700px;
+	margin: 40px;
+
+}
+
+
+/*custom design with class*/
+
+.container {
+	with:700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 10000px) {
+	.container {
+		background-color: #fcf5f9;
+        width: 780px
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 6px;
+    margin: 20px 0px;
+    text-align: centre;
+}
+
+
+.img-circle {
+	border-redius: 60%;
+}
+
+.btn-blue {
+	background-color:  #df88b5 ;
+    color: white;
+	text-decoration: none;
+	text-decoration-thickness: bold;
+	padding:8px 20px;
+	border-radius: 6px;
+}
+
+.btn-blue:hover {
+    background-color:  #df88b5 ;
+    color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i{
+	font-size: 30px;
+	color: #df88b5  ;
+
+}
+
+
+/*Design adjustmentsusing id (1% design remaining) */
+#introduction p{
+	margin-bottom: 40px;
+} 
+
+
+
